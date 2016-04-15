@@ -74,6 +74,20 @@ public class PictureTester
 	canvas.createCollage();
 	canvas.explore();
     }
+
+    public static void testCollage2()
+    {
+	Picture canvas = new Picture("640x480.jpg");
+	canvas.createCollage2();
+	canvas.explore();
+    }
+
+    public static void testMyCollage()
+    {
+	Picture canvas = new Picture("640x480.jpg");
+	canvas.myCollage();
+	canvas.explore();
+    }
   
     /** Method to test edgeDetection */
     public static void testEdgeDetection()
@@ -90,19 +104,21 @@ public class PictureTester
 	// uncomment a call here to run a test
 	// and comment out the ones you don't want
 	// to run
-	testZeroBlue();
+	//testZeroBlue(); //tested
 	//testKeepOnlyBlue();
 	//testKeepOnlyRed();
 	//testKeepOnlyGreen();
 	//testNegate();
 	//testGrayscale();
 	//testFixUnderwater();
-	testMirrorVertical();
+	//testMirrorVertical(); //tested
 	//testMirrorTemple();
 	//testMirrorArms();
 	//testMirrorGull();
-	//testMirrorDiagonal();
-	//testCollage();
+	//testMirrorDiagonal(); //tested
+	//testCollage(); //tested
+	//testCollage2(); //tested
+	//testMyCollage(); //tested
 	//testCopy();
 	//testEdgeDetection();
 	//testEdgeDetection2();
@@ -112,9 +128,9 @@ public class PictureTester
 	//testSetRedToHalfValueInTopHalf();
 	//testClearBlueOverValue(200);
 	//testGetAverageForColumn(0);
-	testMirrorVerticalRightToLeft();
-	testMirrorHorizontal();
-	testMirrorHorizontalBotToTop();
-	testMirrorDiagonal();
+	//testMirrorVerticalRightToLeft(); //tested
+	//testMirrorHorizontal(); //tested
+	//testMirrorHorizontalBotToTop(); //tested
+	//testMirrorDiagonal(); //tested
    }
 }
